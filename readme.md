@@ -35,6 +35,7 @@ Switch personas on the fly — from a savage **RoastBot** to a poetic **Shakespe
 ### 1. Clone the repository
 
 git clone https://github.com/therealanvith/Chatbot_persona
+
 cd persona-chatbot
 
 ### 2. Create a virtual environment (recommended)
