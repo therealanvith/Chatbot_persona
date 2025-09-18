@@ -26,7 +26,7 @@ Switch personas on the fly — from a savage **RoastBot** to a poetic **Shakespe
 ---
 
 ## 📸 Demo
-![demo-screenshot](https://via.placeholder.com/800x400.png?text=Chatbot+Demo+Screenshot)
+![demo-screenshot](demo.png)
 
 ---
 
