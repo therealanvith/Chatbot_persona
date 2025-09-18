@@ -40,7 +40,9 @@ cd persona-chatbot
 ### 2. Create a virtual environment (recommended)
 
 python -m venv venv
+
 source venv/bin/activate  # Mac/Linux
+
 venv\Scripts\activate     # Windows
 
 ### 3. Install dependencies
@@ -51,7 +53,9 @@ pip install -r requirements.txt
 Get a key from Google AI Studio and set it as an environment variable
 
 export GEMINI_API_KEY="your_api_key_here"   # Mac/Linux
+
 setx GEMINI_API_KEY "your_api_key_here"     # Windows (PowerShell)
+
 Or create a .streamlit/secrets.toml file:
 
 GEMINI_API_KEY = "your_api_key_here"
@@ -65,16 +69,14 @@ streamlit run app.py
 
 ### requirements.txt:
 
-nginx
-Copy code
 streamlit
 langchain
 langchain-google-genai
 
 ## 🚀 Deployment
 
-Deploy on Streamlit Cloud
-Push this repo to GitHub
+Deploy on Streamlit Cloud.
+Push this repo to GitHub.
 
 Go to Streamlit Cloud
 
