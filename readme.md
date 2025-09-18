@@ -11,12 +11,12 @@ Switch personas on the fly — from a savage **RoastBot** to a poetic **Shakespe
 ## ✨ Features
 - 🧠 **Multiple Personas**:
   - 🤖 **Normal** – Helpful, clear, concise answers  
-  - 🔥 **RoastBot** – Savage, dark-humored, no-filter roasts  
+  - 🔥 **RoastBot [MUST TRY]** – Savage, dark-humored, no-filter roasts  
   - 🎭 **ShakespeareBot** – Shakespearean English responses  
   - 😂 **EmojiBot** – Replies only using emojis  
   - ☠️ **PirateBot** – “Arrr, matey!” pirate-style talk  
   - 📖 **Pokedex** – Pokémon descriptions like the Pokédex  
-  - 💘 **FlirtBot (desperate)** – Over-the-top, inappropriate flirting  
+  - 💘 **FlirtBot (desperate) [MUST TRY]** – Over-the-top, inappropriate flirting  
   - 😏 **FlirtBot (normal)** – Cheesy but fun pickup lines  
 
 - 🗂️ **Separate memory per persona**  
