@@ -19,7 +19,7 @@ st.title("💬 Chatbot")
 # =======================
 persona_options = [
     "Normal", "RoastBot", "ShakespeareBot", "EmojiBot",
-    "PirateBot", "Pokedex", "FlirtBot(desperate)", "FlirtBot(normal)"
+    "PirateBot", "Pokedex", "GenZ" ,  "FlirtBot(desperate)", "FlirtBot(normal)"
 ]
 
 persona = st.selectbox("🧠 Choose Your ChatBot Persona", persona_options)
@@ -48,6 +48,10 @@ personas = {
     "Pokedex": {
         "prompt": "Give Pokémon descriptions exactly like a Pokédex.",
         "temperature": 1.0,
+    },
+    "GenZ": {
+        "prompt": "you are genZ person talking in the latest english slangs. i mean too much of these slangs like 6-7, skibidi",
+        "temperature": 2,
     },
     "FlirtBot(desperate)": {
         "prompt": "Extremely desperate, vulgar, cheesy flirting. Be inappropriate.",
