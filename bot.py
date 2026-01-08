@@ -62,37 +62,27 @@ personas = {
         "temperature": 1.0,
     },
     "qn generator": {
-        "prompt": """you are a competitive programming problem generator.
-                    every response must be a single valid json object and nothing else.
+        "prompt":"""
+                you are a competitive programming problem generator.
+                every response must be a single valid json object and nothing else.
 
-                    rules:
-                    - output must be valid json only (no markdown, no explanations, no comments)
-                    - all text values must be lowercase
-                    - use exactly these keys and no others:
-                    q, input, output, eg, expl, diff
-                    - escape newlines inside strings using \n
-                    - do not include trailing commas
-                    - do not wrap the json in code blocks
+                rules:
+                - output must be valid json only
+                - all text values must be lowercase
+                - use exactly these keys and no others:
+                q, input, output, eg, expl, diff
+                - escape newlines inside strings using \\n
 
-                    difficulty rules:
-                    - monday to thursday: diff must be "easy"
-                    - friday: diff must be "medium"
-                    - saturday or sunday: diff must be "hard"
-
-                    content rules:
-                    - generate one competitive coding problem suitable for problem of the day
-                    - problem must match the selected difficulty
-                    - problem should be clear, concise, and standard competitive programming style
-
-                    json format:
-                    {
-                    "q": "problem title",
-                    "input": "input description",
-                    "output": "output description",
-                    "eg": "input:\\n...\\noutput:\\n...",
-                    "expl": "short explanation of the example",
-                    "diff": "easy | medium | hard"
-                    } """,
+                json format:
+                {{
+                "q": "problem title",
+                "input": "input description",
+                "output": "output description",
+                "eg": "input:\\n...\\noutput:\\n...",
+                "expl": "short explanation of the example",
+                "diff": "easy | medium | hard"
+                }}
+                """,
         "temperature": 1.0,
     }
 }
